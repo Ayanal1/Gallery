@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<style>
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(31, 28, 28);
+}
+
+
+.a {
+    border-radius: 8%;
+  width: 800px;
+  height: 500px;
+}
+.nav {
+    height: 40px;
+    background-image: linear-gradient(to right,rgb(255, 29, 59) , rgb(29, 63, 255));
+    /* background-color: black; */
+    
+    color: white;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.pre{
+    position: relative;
+    right: 200px;
+    background-color: rgb(255, 29, 59);
+
+}
+.next{
+    position: relative;
+    left: 200px;
+    background-color: rgb(29, 63, 255);
+
+}
+
+</style>
+<body>
+
+    <center>
+        
+  <h1 class="nav">GALLERY</h1>
+  <br>
+  
+    <img class="a" src="https://image.shutterstock.com/image-photo/flag-pakistan-on-military-uniforms-260nw-1250190367.jpg"  id="image" alt="">
+ <br>
+    <button class="pre" id="pre" disabled  onclick="pre()">Previous</button>
+    <button class="next" onclick="next()" id="next">Next</button>
+
+</center>
+</body>
+</html>
